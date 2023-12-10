@@ -5,4 +5,8 @@ View this Website: https://developeramrit981.github.io/AnimatedWebsite/
 
 This was one of the exciting projects that I did in the early days while learning Frontend development.
 
-![webAnimation](https://github.com/DeveloperAmrit981/AnimatedWebsite/assets/147136907/2f6d016f-e684-4120-ba8a-1305cce56a64)
+
+
+
+https://github.com/DeveloperAmrit981/AnimatedWebsite/assets/147136907/c686d75d-d73a-4a41-8b90-ad736dc63e50
+
