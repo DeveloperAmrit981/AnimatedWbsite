@@ -23,7 +23,7 @@
 #cursor-blur {
     height: 400px;
     width: 400px;
-    background-color: rgba(149, 193, 31,0.4);
+    background-color: rgba(131, 173, 13, 0.5);
     border-radius: 50%;
     position: fixed;
     filter: blur(50px);
@@ -32,7 +32,7 @@
 
 /*Navbar */
 #nav {
-    height: 6rem;
+    height: 8rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -41,17 +41,27 @@
     z-index: 99;
 }
 #logoContainer {
-    width: 15%;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#logo {
-    height: 5rem;
-    width: 5.5rem;
-    padding: 2px;
+#logotext {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: #83d355; 
+    text-shadow: 15px 5px 0px rgba(0,0,0,0.2); 
+    transform: translateZ(0); 
+    transition: transform 0.25s;
 }
+
+#logotext:hover {
+    transform: scale(1.1) translateZ(50px); 
+}
+
 
 .navbarh4 {
     width: 60%;
@@ -576,10 +586,13 @@
     font-size: 100px;
     position: absolute;
     font-weight: 900;
-    top: 15%;
+    top: -35%;
+    text-align: center;
     color: #000;
     font-family: sans-serif;
-    text-shadow: 2px 4px hsl(0, 0%, 100%);
+    text-shadow: 10px 5px 0px rgba(39, 161, 49, 0.5); 
+    transform: translateZ(1); 
+    transition: transform 0.25s;
     -webkit-text-stroke: 2px  #FFFFFF;
 }
 
@@ -696,6 +709,7 @@
 }
 #footerbottom p{
     color: #000;
+    padding-top: 30px;
 }
 
 
@@ -712,6 +726,7 @@
     display: flex;
     justify-content: end;
     padding-right: 2rem;
+    align-items: center;
 }
 
 strong {
